@@ -137,14 +137,9 @@
       'about.values.v3.body': 'Compliance is the floor, not the ceiling. We connect numbers to strategy so the work pays for itself.',
       'about.values.v4.title': 'Long-term Partnership',
       'about.values.v4.body': 'Most of our clients stay with us for years. We invest in understanding your business so the advice gets sharper over time.',
-      'about.lead.title': 'Leadership',
-      'about.lead.sub': 'Direct access to senior expertise on every engagement.',
-      'about.lead.role': 'Principal Consultant · Registered Tax Agent',
-      'about.lead.bio1': 'Julia leads SNS Biz as Principal Consultant. As a Registered Tax Agent, she advises business owners and individuals on tax, structuring and growth strategy — combining technical rigour with a practical, commercial mindset.',
-      'about.lead.bio2': 'Her work spans sole traders setting up for the first time through to established companies navigating restructure, succession or scale.',
       'about.cta.title': "Let's talk",
       'about.cta.body': "Whether it's a tax question, a structuring decision, or a business challenge — start with a conversation.",
-      'about.cta.btn': 'Email Julia',
+      'about.cta.btn': 'Email Us',
     },
 
     zh: {
@@ -283,14 +278,9 @@
       'about.values.v3.body': '合规是底线，而非天花板。我们将数字与战略相连，让我们的工作物超所值。',
       'about.values.v4.title': '长期合作',
       'about.values.v4.body': '我们的大多数客户与我们合作多年。我们投入精力深入了解您的业务，让建议随时间不断精准。',
-      'about.lead.title': '团队介绍',
-      'about.lead.sub': '每一次合作，都直接对接资深专业人员。',
-      'about.lead.role': '首席顾问 · 注册税务代理',
-      'about.lead.bio1': 'Julia 担任 SNS Biz 首席顾问。作为注册税务代理，她为企业主与个人提供税务、架构与增长策略方面的建议 — 将技术严谨性与务实、商业化的思维方式相结合。',
-      'about.lead.bio2': '她的服务范围涵盖从首次设立的个体经营者，到正在经历重组、继承或扩张的成熟公司。',
       'about.cta.title': '与我们沟通',
       'about.cta.body': '无论是税务问题、架构决策，还是业务挑战 — 都从一次对话开始。',
-      'about.cta.btn': '发邮件给 Julia',
+      'about.cta.btn': '发邮件给我们',
     }
   };
 

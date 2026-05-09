@@ -65,6 +65,8 @@ p { margin-bottom: 14px; color: var(--body); }
   padding-bottom: 18px;
 }
 .brand {
+  display: inline-block;
+  line-height: 0;
   font-family: 'Times New Roman', Georgia, serif;
   font-size: 24px;
   font-weight: 700;
@@ -73,6 +75,17 @@ p { margin-bottom: 14px; color: var(--body); }
   text-transform: uppercase;
 }
 .brand .dot { color: var(--gold); }
+.brand img {
+  height: 44px;
+  width: auto;
+  display: block;
+}
+@media (max-width: 768px) {
+  .brand img { height: 38px; }
+}
+/* Footer brand uses the reverse logo for dark background */
+footer .brand { display: inline-block; line-height: 0; margin-bottom: 14px; }
+footer .brand img { height: 52px; width: auto; }
 nav ul { list-style: none; display: flex; gap: 28px; }
 nav a {
   color: var(--body);

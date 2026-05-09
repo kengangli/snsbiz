@@ -1,4 +1,5 @@
-/* SNS Biz — i18n dictionary and language switcher */
+/* SNS Biz — i18n dictionary and language switcher
+   Languages: en (English), zh (Simplified Chinese), zh-TW (Traditional Chinese) */
 (function () {
   const T = {
     en: {
@@ -7,7 +8,6 @@
       'nav.solutions': 'Solutions',
       'nav.services': 'Services',
       'nav.about': 'About Us',
-      'lang.toggle': '中文',
       'footer.about': 'Tax, accounting and business consulting for Australian small and medium businesses.',
       'footer.quicklinks': 'Quick Links',
       'footer.contact': 'Contact',
@@ -143,12 +143,11 @@
     },
 
     zh: {
-      // Common
+      // Common — Simplified Chinese (zh-CN)
       'nav.home': '首页',
       'nav.solutions': '解决方案',
       'nav.services': '服务项目',
       'nav.about': '关于我们',
-      'lang.toggle': 'English',
       'footer.about': '为澳大利亚中小企业提供税务、会计与商业咨询服务。',
       'footer.quicklinks': '快速链接',
       'footer.contact': '联系方式',
@@ -281,22 +280,169 @@
       'about.cta.title': '与我们沟通',
       'about.cta.body': '无论是税务问题、架构决策，还是业务挑战 — 都从一次对话开始。',
       'about.cta.btn': '发邮件给我们',
+    },
+
+    'zh-TW': {
+      // Common — Traditional Chinese (zh-TW)
+      'nav.home': '首頁',
+      'nav.solutions': '解決方案',
+      'nav.services': '服務項目',
+      'nav.about': '關於我們',
+      'footer.about': '為澳洲中小企業提供稅務、會計與商業諮詢服務。',
+      'footer.quicklinks': '快速連結',
+      'footer.contact': '聯絡方式',
+      'footer.legal': '© <span id="year"></span> SNS Biz · 註冊稅務代理 · 版權所有',
+
+      // Home
+      'home.title': 'SNS Biz — 稅務與商業諮詢',
+      'home.hero.h1': '值得信賴的稅務、會計與商業諮詢服務',
+      'home.hero.lede': 'SNS Biz 與澳洲中小企業緊密合作，簡化稅務事務、優化財務決策、助力業務成長。註冊稅務代理 · 值得信賴的顧問 · 本地團隊。',
+      'home.hero.btn1': '查看服務',
+      'home.hero.btn2': '關於我們',
+      'home.what.title': '我們的服務',
+      'home.what.sub': '從稅務申報到長期商業策略 — 助您保持合規、穩健獲利、為下一階段做好準備。',
+      'home.card1.title': '稅務與合規',
+      'home.card1.body': '由註冊稅務代理處理的稅務申報、BAS、GST、FBT 及澳洲稅務局往來事務 — 精準、及時、可應對審計。',
+      'home.card2.title': '會計與記帳',
+      'home.card2.body': '基於雲端的記帳、薪酬與管理報表，讓您即時清晰地掌握業務營運狀況。',
+      'home.card3.title': '商業諮詢',
+      'home.card3.body': '在定價、獲利能力、現金流與公司架構方面提供務實建議 — 將數字轉化為推動業務前行的決策。',
+      'home.card4.title': '設立與架構規劃',
+      'home.card4.body': '從第一天起選擇合適的實體類型、登記適當的稅種，並為資產保護與稅務效率搭建合理架構。',
+      'home.stats.years': '年產業經驗',
+      'home.stats.clients': '服務客戶',
+      'home.stats.agent': '註冊稅務代理',
+      'home.stats.local': '本地團隊',
+      'home.builtfor.title': '為澳洲中小企業打造',
+      'home.builtfor.body': 'SNS Biz 服務於希望獲得直接、坦率建議的企業主與經營者。我們將稅務實務的嚴謹性與諮詢業的橫向思維相結合 — 讓我們的工作將合規與商業成果緊密連接。',
+      'home.builtfor.body2': '無論您是個體經營者、成長型企業，還是正在規劃下一階段的發展，我們都將與您並肩工作，讓帳目清晰、稅務合規、策略明朗。',
+      'home.builtfor.btn': '查看解決方案',
+      'home.why.title': '客戶選擇我們的理由',
+      'home.why.li1': '<strong>註冊稅務代理</strong> — 負責任、受監管、獲 ATO 認可。',
+      'home.why.li2': '<strong>單一聯絡窗口</strong> — 您的首席顧問，全程負責。',
+      'home.why.li3': '<strong>淺顯易懂的建議</strong> — 選項清晰，沒有行業術語。',
+      'home.why.li4': '<strong>務實、商業化</strong> — 您可以立即採取行動的建議。',
+      'home.cta.title': '準備好洽談了嗎？',
+      'home.cta.body': '預約一次免費諮詢，談談您的稅務、帳務或業務規劃。',
+      'home.cta.btn': '寄電郵給我們',
+
+      // Solutions
+      'solutions.title': '解決方案 — SNS Biz',
+      'solutions.header.h1': '解決方案',
+      'solutions.header.sub': '圍繞您業務階段與型態量身定製的打包方案 — 從個體經營者到規模化企業。',
+      'solutions.section.title': '適合每一階段的解決方案',
+      'solutions.section.sub': '選擇最適合您當前階段的方案。我們將根據您的產業、架構與目標進行細節調整。',
+      'solutions.includes': '包含：',
+      'solutions.s1.title': '個體經營者與承包商',
+      'solutions.s1.body': '適合自由業者、承包商及個體經營者，無需龐大的後台支援，即可獲得清晰的稅務結果。',
+      'solutions.s1.list': '年度稅務申報、BAS 申報、扣除項優化、ABN/GST 設立。',
+      'solutions.s2.title': '小型企業基礎方案',
+      'solutions.s2.body': '適合早期階段的公司與合夥企業，準備建立完善的帳務、薪酬與稅務合規體系。',
+      'solutions.s2.list': '記帳、薪酬、BAS/GST、年度帳目、公司稅申報、定期諮詢溝通。',
+      'solutions.s3.title': '成長型企業諮詢',
+      'solutions.s3.body': '適合需要財務合作夥伴 — 而不僅是記帳員 — 支援定價、現金流與成長決策的成熟中小企業。',
+      'solutions.s3.list': '管理報告、預算編製、現金流預測、稅務規劃、季度策略會議。',
+      'solutions.s4.title': '架構設立與重組',
+      'solutions.s4.body': '適合考慮設立新實體、集團架構或重組以支援成長、資產保護或繼承的企業主。',
+      'solutions.s4.list': '實體審核、信託與公司設立、節稅架構設計、ATO/ASIC 溝通。',
+      'solutions.s5.title': '稅務規劃與策略',
+      'solutions.s5.body': '適合希望合法降低稅負、並制定財政年度之外計劃的企業主與高收入者。',
+      'solutions.s5.list': '年終規劃、退休金策略、CGT 規劃、股息與信託分配審查。',
+      'solutions.s6.title': '外包財務部門',
+      'solutions.s6.body': '適合希望擁有專屬財務團隊但不願承擔內部招聘成本的企業。',
+      'solutions.s6.list': '日常記帳、薪酬、供應商付款、月度報告、虛擬財務長支援。',
+      'solutions.notsure.title': '不確定哪個方案適合您？',
+      'solutions.notsure.body': '每家企業都不同。我們會先安排一次簡短的溝通，了解您的情況，再推薦合適的方案 — 或為您量身打造一個。',
+      'solutions.notsure.btn': '預約諮詢通話',
+
+      // Services
+      'services.title': '服務項目 — SNS Biz',
+      'services.header.h1': '服務項目',
+      'services.header.sub': '全方位的稅務與諮詢服務 — 涵蓋從基礎合規到商業建議的方方面面。',
+      'services.tax.title': '稅務服務',
+      'services.tax.l1': '個人、個體經營者、合夥企業、公司及信託稅務申報',
+      'services.tax.l2': '商業活動報表 (BAS) 與分期活動報表 (IAS)',
+      'services.tax.l3': 'GST 註冊、申報與審查',
+      'services.tax.l4': '附加福利稅 (FBT) 申報與諮詢',
+      'services.tax.l5': '資本利得稅 (CGT) 規劃與報告',
+      'services.tax.l6': 'ATO 信件往來、審計支援與爭議解決',
+      'services.tax.l7': '年終稅務規劃與節稅策略',
+      'services.acc.title': '會計與記帳',
+      'services.acc.l1': '雲端記帳系統設置與遷移 (Xero, MYOB, QuickBooks)',
+      'services.acc.l2': '日常記帳、銀行對帳與應付應收帳款',
+      'services.acc.l3': '月度與季度管理帳目',
+      'services.acc.l4': '薪酬處理、單觸式工資申報 (STP) 與退休金',
+      'services.acc.l5': '年度財務報表編製',
+      'services.acc.l6': '工作底稿管理與可應對審計的記錄',
+      'services.con.title': '商業諮詢',
+      'services.con.l1': '利潤、定價與利潤率分析',
+      'services.con.l2': '現金流管理、預測與情境建模',
+      'services.con.l3': '預算與財務規劃',
+      'services.con.l4': '虛擬財務長與財務領導支援',
+      'services.con.l5': '營運審查與流程改進',
+      'services.con.l6': '業績報告與關鍵績效指標儀表板',
+      'services.set.title': '設立、架構與合規',
+      'services.set.l1': '公司、信託與合夥企業設立',
+      'services.set.l2': 'ABN、TFN、GST、PAYG 與薪酬註冊',
+      'services.set.l3': 'ASIC 合規與年度審查',
+      'services.set.l4': '面向資產保護與稅務效率的集團架構設計',
+      'services.set.l5': '重組規劃與執行',
+      'services.set.l6': '董事職責與公司治理支援',
+      'services.adv.title': '面向業主與高階主管的諮詢',
+      'services.adv.l1': '企業主與高收入人士的個人稅務規劃',
+      'services.adv.l2': '退休金與自管退休金 (SMSF) 協調',
+      'services.adv.l3': '繼承、退出與出售前準備規劃',
+      'services.adv.l4': '策略審查與季度業務溝通',
+      'services.adv.l5': '買賣、盡職調查與交易支援',
+      'services.cta.title': '需要其他特定服務？',
+      'services.cta.body': '告訴我們您的需求 — 我們會第一時間回覆，說明如何提供協助。',
+      'services.cta.btn': '聯絡我們',
+
+      // About
+      'about.title': '關於我們 — SNS Biz',
+      'about.header.h1': '關於我們',
+      'about.header.sub': '一家位於雪梨的稅務與諮詢事務所，秉承清晰、負責與商業成果導向。',
+      'about.who.title': '我們是誰',
+      'about.who.body': 'SNS Biz 是一家精品專業服務機構，將稅務專業能力與商業諮詢深度結合。我們的客戶包括個體經營者、家族企業、成長型中小企業以及成熟公司 — 他們尋求的是值得信賴的合作夥伴，而不僅是稅務申報員。',
+      'about.who.body2': '我們相信，中小企業理應享有與大型企業同等水準的專業建議：嚴謹、橫向思考、紮根商業現實。這一信念塑造了我們如何招聘、如何工作以及如何收費。',
+      'about.how.title': '我們的工作方式',
+      'about.how.body': '每一次合作都始於深入了解客戶的業務。在此基礎上，我們設計與您所處階段和發展抱負相匹配的服務組合 — 既不冗餘，也不簡陋。',
+      'about.how.body2': '您將直接與了解您檔案的資深顧問對接，他們會回覆您的電話，並對結果負責。沒有客服中心，沒有在您業務上練手的初級人員。',
+      'about.values.title': '我們的價值觀',
+      'about.values.v1.title': '清晰',
+      'about.values.v1.body': '淺顯易懂的建議、真實的選項、明確的下一步。我們將稅務與財務轉化為您可以採取行動的決策。',
+      'about.values.v2.title': '負責',
+      'about.values.v2.body': '註冊、受監管、個人負責。當我們簽字時，我們對結果負責到底。',
+      'about.values.v3.title': '商業意識',
+      'about.values.v3.body': '合規是底線，而非天花板。我們將數字與策略相連，讓我們的工作物超所值。',
+      'about.values.v4.title': '長期合作',
+      'about.values.v4.body': '我們大多數客戶與我們合作多年。我們投入精力深入了解您的業務，讓建議隨時間不斷精準。',
+      'about.cta.title': '與我們聯繫',
+      'about.cta.body': '無論是稅務問題、架構決策，還是業務挑戰 — 都從一次對話開始。',
+      'about.cta.btn': '寄電郵給我們',
     }
   };
 
+  const STORAGE_KEY = 'snsbiz_lang';
+  const VALID = ['en', 'zh', 'zh-TW'];
+
   function getLang() {
     try {
-      return localStorage.getItem('snsbiz_lang') || 'en';
+      const v = localStorage.getItem(STORAGE_KEY);
+      return VALID.indexOf(v) >= 0 ? v : 'en';
     } catch (e) { return 'en'; }
   }
 
   function setStoredLang(lang) {
-    try { localStorage.setItem('snsbiz_lang', lang); } catch (e) {}
+    try { localStorage.setItem(STORAGE_KEY, lang); } catch (e) {}
   }
 
   function applyLang(lang) {
-    if (!T[lang]) lang = 'en';
-    document.documentElement.lang = (lang === 'zh' ? 'zh-CN' : 'en');
+    if (VALID.indexOf(lang) < 0) lang = 'en';
+    let htmlLang = 'en';
+    if (lang === 'zh') htmlLang = 'zh-CN';
+    else if (lang === 'zh-TW') htmlLang = 'zh-TW';
+    document.documentElement.lang = htmlLang;
     document.body.setAttribute('data-lang', lang);
 
     document.querySelectorAll('[data-i18n]').forEach(el => {
@@ -310,20 +456,28 @@
       }
     });
 
-    // Refresh year placeholders if any (legal line gets re-rendered on lang switch)
+    // Active state on the language switcher
+    document.querySelectorAll('.lang-switch button').forEach(btn => {
+      btn.classList.toggle('active', btn.getAttribute('data-lang') === lang);
+    });
+
+    // Refresh year placeholder
     document.querySelectorAll('#year').forEach(s => { s.textContent = new Date().getFullYear(); });
   }
 
-  function toggleLang() {
-    const next = getLang() === 'en' ? 'zh' : 'en';
-    setStoredLang(next);
-    applyLang(next);
+  function setLang(lang) {
+    setStoredLang(lang);
+    applyLang(lang);
   }
 
   document.addEventListener('DOMContentLoaded', function () {
     applyLang(getLang());
-    document.querySelectorAll('.lang-toggle').forEach(btn => {
-      btn.addEventListener('click', function (e) { e.preventDefault(); toggleLang(); });
+    document.querySelectorAll('.lang-switch button').forEach(btn => {
+      btn.addEventListener('click', function (e) {
+        e.preventDefault();
+        const lang = btn.getAttribute('data-lang');
+        if (lang) setLang(lang);
+      });
     });
   });
 })();

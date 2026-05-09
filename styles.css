@@ -87,37 +87,43 @@ nav a:hover, nav a.active {
   border-bottom-color: var(--gold);
 }
 
-/* Language toggle button */
-.lang-toggle {
+/* Language switcher (EN | 简 | 繁) */
+nav ul li.lang-item { margin-left: 6px; }
+.lang-switch {
   display: inline-flex;
-  align-items: center;
-  gap: 6px;
-  padding: 5px 12px;
-  font-size: 12.5px;
-  font-weight: 600;
-  letter-spacing: 0.6px;
-  color: var(--navy);
-  background: transparent;
+  align-items: stretch;
   border: 1px solid var(--gold);
   border-radius: 2px;
+  overflow: hidden;
+  font-size: 12px;
+  line-height: 1;
+}
+.lang-switch button {
+  border: none;
+  background: transparent;
+  padding: 6px 10px;
   cursor: pointer;
+  color: var(--navy);
+  font-weight: 600;
+  font-family: 'Helvetica Neue', Helvetica, Arial,
+               'PingFang SC', 'PingFang TC', 'Microsoft YaHei', 'Microsoft JhengHei',
+               sans-serif;
+  border-right: 1px solid var(--gold);
+  letter-spacing: 0.4px;
   transition: background 0.2s, color 0.2s;
-  font-family: inherit;
+  min-width: 32px;
 }
-.lang-toggle::before {
-  content: '⌘';
-  font-size: 11px;
-  color: var(--gold);
-  font-weight: 400;
-}
-.lang-toggle:hover {
+.lang-switch button:last-child { border-right: none; }
+.lang-switch button.active {
   background: var(--gold);
   color: var(--navy);
+  cursor: default;
 }
-.lang-toggle:hover::before { color: var(--navy); }
-nav ul li.lang-item { margin-left: 6px; }
+.lang-switch button:hover:not(.active) {
+  background: rgba(184, 155, 94, 0.18);
+}
 
-/* Chinese typography overrides */
+/* Simplified Chinese typography */
 body[data-lang="zh"] {
   font-family: 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', '微软雅黑',
                'Source Han Sans CN', 'Noto Sans SC', sans-serif;
@@ -134,11 +140,36 @@ body[data-lang="zh"] .svc-row h3 {
                'Source Han Sans CN', 'Noto Sans SC', sans-serif;
   letter-spacing: 1px;
 }
-body[data-lang="zh"] .brand { letter-spacing: 3px; }
-body[data-lang="zh"] nav a { letter-spacing: 0.4px; }
-body[data-lang="zh"] .btn { letter-spacing: 1px; }
-body[data-lang="zh"] .hero h1 { font-size: 44px; }
-body[data-lang="zh"] .stat .label { letter-spacing: 0.6px; }
+
+/* Traditional Chinese typography */
+body[data-lang="zh-TW"] {
+  font-family: 'PingFang TC', 'Hiragino Sans CNS', 'Microsoft JhengHei', '微軟正黑體',
+               'Source Han Sans TC', 'Noto Sans TC', sans-serif;
+}
+body[data-lang="zh-TW"] h1,
+body[data-lang="zh-TW"] h2,
+body[data-lang="zh-TW"] h3,
+body[data-lang="zh-TW"] h4,
+body[data-lang="zh-TW"] .brand,
+body[data-lang="zh-TW"] .stat .num,
+body[data-lang="zh-TW"] .team-card h3,
+body[data-lang="zh-TW"] .svc-row h3 {
+  font-family: 'PingFang TC', 'Hiragino Sans CNS', 'Microsoft JhengHei', '微軟正黑體',
+               'Source Han Sans TC', 'Noto Sans TC', sans-serif;
+  letter-spacing: 1px;
+}
+
+/* Shared CJK adjustments */
+body[data-lang="zh"] .brand,
+body[data-lang="zh-TW"] .brand { letter-spacing: 3px; }
+body[data-lang="zh"] nav a,
+body[data-lang="zh-TW"] nav a { letter-spacing: 0.4px; }
+body[data-lang="zh"] .btn,
+body[data-lang="zh-TW"] .btn { letter-spacing: 1px; }
+body[data-lang="zh"] .hero h1,
+body[data-lang="zh-TW"] .hero h1 { font-size: 44px; }
+body[data-lang="zh"] .stat .label,
+body[data-lang="zh-TW"] .stat .label { letter-spacing: 0.6px; }
 
 /* ===== Hero / Page Header ===== */
 .hero {
